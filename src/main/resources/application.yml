@@ -1,0 +1,11 @@
+
+spring:
+  mail:
+    host: smtp.qq.com
+    username: xxxx@qq.com
+    #这个是授权码，不是邮箱的密码
+    password: ocvyzhapzzbwbjaj
+
+maail:
+  from: ${spring.mail.username}
+  to: xxxxx@qq.com
